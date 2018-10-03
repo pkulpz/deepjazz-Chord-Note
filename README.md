@@ -13,7 +13,7 @@ python generator.py
 
 This project can get the chords and notes information automatically from the jazz file you input. This is the main improvement of jisungk's project.
 
-To use another jazz music, you should only change the file path in function data_info in generator.py file. 
+To use another jazz music, you should only change the file path and track number of chord and note in function data_info in generator.py file. 
 
 To use a list of jazz music as the input, you should give a list of jazz musics' file path. It's very easy to use.
 
