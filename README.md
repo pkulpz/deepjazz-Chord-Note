@@ -28,3 +28,4 @@ This project is based on Ji-Sung Kim's project deepjazz(https://github.com/jisun
 ### Code License, Media Copyright
 
 Code is licensed under the Apache License 2.0
+Images and other media are copyrighted (Ji-Sung Kim)
