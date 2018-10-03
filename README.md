@@ -3,13 +3,11 @@ Note: deepjazz has been succeeded by [**songbird.ai**](http://songbird.ai) and i
 
 This project can generate a new jazz music using an existing jazz's Chords and Notes.
 
-
 ### Instructions
 Run on CPU with command:  
 ```
 python generator.py
 ```
-
 
 This project can get the chords and notes information automatically from the jazz file you input. This is the main improvement of jisungk's project.
 
@@ -20,7 +18,7 @@ To use a list of jazz music as the input, you should give a list of jazz musics'
 ### Author
 
 [Peize Li]
-
+e-mail: pz.li.pku@gmail.com
 
 ### Citations
 jisungk(https://github.com/jisungk/deepjazz)  
