@@ -18,6 +18,7 @@ To use a list of jazz music as the input, you should give a list of jazz musics'
 ### Author
 
 [Peize Li]
+
 e-mail: pz.li.pku@gmail.com
 
 ### Citations
