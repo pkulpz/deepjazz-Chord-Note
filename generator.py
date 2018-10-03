@@ -202,9 +202,8 @@ def data_info():
     data_fn_list = []
     data_para_list = []
 
-    # 500_miles_high-Chick-Corea_ee
     data_para = []
-    file_name = 'midi/' + 'a_cottage_for_sale_rs'
+    file_name = 'midi/' + 'original_metheny'
     data_fn = file_name + '.mid'
     i_melody = 5
     i_chord = 0
@@ -213,40 +212,6 @@ def data_info():
     data_fn_list.append(data_fn)
     data_para_list.append(data_para)
     
-    # # original_metheny
-    # data_para = []
-    # file_name = 'midi/' + 'original_metheny'
-    # data_fn = file_name + '.mid'
-    # i_melody = 5
-    # i_chord = 0
-    # data_para.append(i_melody)
-    # data_para.append(i_chord)
-    # data_fn_list.append(data_fn)
-    # data_para_list.append(data_para)
-
-    # # Faded Love 4 7
-    # data_para = []
-    # file_name = 'midi/' + 'Bob_Wills_-_Faded_Love'
-    # data_fn = file_name + '.mid'
-    # i_melody = 8
-    # i_chord = 0
-    # data_para.append(i_melody)
-    # data_para.append(i_chord)
-    # data_fn_list.append(data_fn)
-    # data_para_list.append(data_para)
-
-    # # 2_of_a_kind_jp
-    # data_para = []
-    # file_name = 'midi/' + '2_of_a_kind_jp'
-    # data_fn = file_name + '.mid'
-    # i_melody = 5
-    # i_chord = 1
-    # data_para.append(i_melody)
-    # data_para.append(i_chord)
-    # data_fn_list.append(data_fn)
-    # data_para_list.append(data_para)
-
-
     return data_fn_list,data_para_list
 
 def main(args):
@@ -258,7 +223,7 @@ def main(args):
     # i/o settings
     data_fn_list,data_para_list = data_info()
 
-    out_fn = 'midi/' + datetime.now().strftime('%Y-%m-%d %H-%M-%S') + ' ' + str(N_epochs)
+    out_fn = 'midi/generation/deepjazz...' + datetime.now().strftime('%Y-%m-%d %H-%M-%S') + ' ' + str(N_epochs)
     if (N_epochs == 1):
         out_fn += '_epoch.midi'
     else:
